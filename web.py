@@ -7,17 +7,12 @@ import matplotlib.pyplot as plt
 # Load trained model
 model = pickle.load(open("salary_model.pkl","rb"))
 
-# Title
 st.title("AI Salary Prediction System")
 
 st.write("Enter employee details to predict salary")
 
 # Load dataset
 data = pd.read_csv("employee_data.csv")
-
-# Show dataset
-st.subheader("Employee Dataset")
-st.dataframe(data)
 
 # Graph visualization
 st.subheader("Experience vs Salary")
