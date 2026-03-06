@@ -1,0 +1,11 @@
+first_name,last_name,emp_id,age,experience,skills,education,salary
+John,Doe,101,25,2,Python,Bachelors,40000
+Emma,Smith,102,30,5,Java,Masters,65000
+Ravi,Kumar,103,28,4,Python,Bachelors,55000
+Amit,Sharma,104,35,8,AI,Masters,90000
+Sara,Khan,105,26,3,Web,Bachelors,48000
+Rahul,Verma,106,32,7,Data Science,Masters,85000
+Neha,Singh,107,24,1,Python,Bachelors,35000
+Arjun,Patel,108,40,12,AI,PhD,120000
+Priya,Gupta,109,29,5,Data Science,Masters,70000
+Karan,Mehta,110,31,6,Java,Masters,72000
