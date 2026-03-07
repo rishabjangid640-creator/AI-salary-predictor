@@ -25,8 +25,8 @@ ax.set_ylabel("Salary")
 st.pyplot(fig)
 
 # Input fields
-age = st.slider("Age",18,60)
-experience = st.slider("Years of Experience",0,20)
+age = st.selectbox("Age",18,60)
+experience = st.selectbox("Years of Experience",0,20)
 
 skills = st.selectbox(
     "Skill",
@@ -53,4 +53,5 @@ if st.button("Predict Salary"):
     prediction = model.predict(input_data)
 
     st.success(f"Predicted Salary: ₹{int(prediction[0])}")
+
 
